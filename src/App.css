@@ -1,154 +1,41 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+*{
+  margin: 0%;
 }
-body {  
-  font-family: sans-serif;
-  background: #ffffff;
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.header{
-  width: 100%;
-  height:60px;
-  top: 0;left: 0;
-}
-.container{
-  width: 90%;
-  margin: auto
-}
-.container .btn-menu, .logo{
-  float: left;
-  margin-top:4px;
-  transition: 0.4s ease;
-}
-.container .btn-menu, .logo:hover{
-  transform: scale(1.05);
-}
-
-.container .btn-menu{
-  font-size: 10px;
-  cursor: pointer;
-}
-.container .menu{
-  float: right;
-  margin-right: 2%;
-  line-height: 10px;
-}
-.container .menu a{
-  display: inline-block;
-  padding: 12px;
-  line-height: normal;
-  text-decoration: none;
-  color: rgb(0, 0, 0);
-  transition: all 0.4s ease;
-  border-bottom: 2px solid transparent;
-  font-size: 0.95rem;
-  margin-top: 2%;
-  margin-right: 3px;
-}
-.container .menu .a{
-  color: rgb(0, 0, 0);
-  border-bottom: 2px solid #000000;
-  padding-bottom: 5px;
-}
-
-.container .menu a:hover{
-  color: #000000;
-  transform: scale(1.05);
-  border-bottom: 2px solid #000000;
-  padding-bottom: 5px;
-}
-
-/* ------------------ */
-.presentations{
-  margin-left: 8%;
-  margin-right: 8%;
-  margin-top: 50px;
-  margin-bottom: 50px;
+.landing{
   display: flex;
-  justify-content: space-between;
 }
-.presentations .imagen {
-  padding-right: 10%;
-  border-right:1px solid #000 ;
+.landing .perfiles{
+  text-align: center;
+  padding: 20px;
+  margin-right: 10px;
+  margin-left: 5%;
+  border-right: solid 1px #8d8d8d;
 }
-.presentations .imagen img{
-  border-radius: 100%;
-  box-shadow:  1px 1px 15px #000000a6;
-  width: 100px;
-  height: 100px;
+.landing .perfiles img{
+  border-radius: 50%;
+  box-shadow: 1px 1px 10px #5f1a86;
+  width: 120px;
   transition: 0.5s;
 }
-.presentations .imagen img:hover{
-transform:  scale(1.05);
-box-shadow: 1px 1px 20px #8c00ff;
-cursor: pointer;
-}
-.presentations p{
-  padding-left: 5%;
-  display: flex;
-  align-items: center;
-}
-/* footer */
-footer {
-  background-color: #000000;
-  color: #fff;
-  padding: 20px;
-  text-align: center;
-}
-
-.containerFooter {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-.descriptions p {
-  font-size: 25px;
-  margin-left:10px;
-  color: rgb(0, 112, 240);
-  font-weight: bold;
-}
-.list {
-  align-items: center;
-  justify-content: center;
-}
-.cards{
-  display: flex;
-  flex-direction: column;
-  margin-left: 10px;
-}
-.list .container {
-  width: 190px;
-  border: 1px solid white;
-  box-shadow: 12px 17px 30px rgba(0, 0, 0, 0.22);
-  backdrop-filter: blur(2px);
-  border-radius: 17px;
+.landing .perfiles img:hover{
   cursor: pointer;
-  transition: all 0.5s;
-  align-items: center;
-  justify-content: center;
-  font-weight: bolder;
-  margin: 10px;
+  transform: scale(1.06);
 }
-
-.list .container:hover {
-  border: 1px solid #0C17C8;
-  transform: scale(1.05);
-}
-.list .container:active {
-  transform: scale(0.95) rotateZ(1.7deg);
-}
-.list h2 {
-  text-align: center;
-  font-size: 20px;
-  margin-bottom: 20px;
+.landing .perfiles p{
   margin-top: 10px;
-  color: #0C17C8;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+    box-shadow: 4px 4px 10px #9b9b9b;
+  font-size: 20px;
+  font-weight: bold;
+  transition: 0.5s;
 }
-.list ul {
-  margin-left: 25%;
-  list-style: none;
-}
-.list ul li{
-  text-decoration: none;
-  color: rgb(97, 0, 187);
+.landing .perfiles p:hover{
+cursor: pointer;
+transform: scale(1.06);
 }
