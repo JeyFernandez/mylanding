@@ -30,6 +30,7 @@ body {
 .landing .perfiles img:hover {
   cursor: pointer;
   transform: scale(1.06);
+  transform: (5rem);
 }
 /* .landing .perfiles p {
   margin-top: 20px;
@@ -55,7 +56,12 @@ body {
   box-shadow: 0px 3px 10px #0000008c;
   border-radius: 100px;
 }
+.btn .icon:hover {
+  transform: rotateX("angle");
+  transform: translate(9rem);
+}
 .btn .icon {
+  transition: 0.5s;
   display: flex;
   font-size: 2rem;
   padding: 10px;
