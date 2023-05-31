@@ -1,38 +1,38 @@
-*{
+* {
   margin: 0%;
 }
-body{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-.landing .banner{
+.landing .banner {
   width: 100%;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   box-shadow: 0px 1px 10px #686868;
 }
-.landing .container{
+.landing .container {
   margin-top: -80px;
   display: flex;
 }
-.landing .perfiles{
+.landing .perfiles {
   text-align: center;
   padding: 20px;
   margin-right: 10px;
   margin-left: 6%;
 }
-.landing .perfiles .foto{
+.landing .perfiles .foto {
   border-radius: 50%;
   box-shadow: 2px 3px 10px #686868;
   width: 120px;
   margin-bottom: 20px;
   transition: 0.5s;
 }
-.landing .perfiles img:hover{
+.landing .perfiles img:hover {
   cursor: pointer;
   transform: scale(1.06);
 }
-.landing .perfiles p{
-  margin-top: 10px;
+/* .landing .perfiles p {
+  margin-top: 20px;
   padding: 5px;
   padding-left: 10px;
   padding-right: 10px;
@@ -42,15 +42,54 @@ body{
   font-weight: bold;
   transition: 0.5s;
 }
-.landing .perfiles p:hover{
-cursor: pointer;
-transform: scale(1.06);
+.landing .perfiles p:hover {
+  cursor: pointer;
+  transform: scale(1.06);
+} */
+.btn {
+  cursor: pointer;
+  margin-top: 30px;
+  margin-right: 40px;
+  display: flex;
+  background-color: #fff;
+  box-shadow: 0px 3px 10px #0000008c;
+  border-radius: 100px;
+}
+.btn .icon {
+  display: flex;
+  font-size: 2rem;
+  padding: 10px;
+  border-radius: 100px;
+  box-shadow: 3px 0px 10px #0000008c;
+  color: white;
+}
+.btn p {
+  margin: 10px;
+  font-size: 1.5rem;
+  font-family: "Jetbrains mono", "Helvetica Neue";
+  font-weight: bold;
+}
+.btn p a {
+  text-decoration: none;
+}
+.wat {
+  color: #00bb2d;
+}
+#colorwat {
+  background: #00bb2d;
 }
 
-.landing .perfiles .contact{
-border-right: solid 1px #8d8d8d;
+.face {
+  color: #0088cc;
+}
+#colorface {
+  background: #0088cc;
 }
 
-.info{
+.landing .perfiles .contact {
+  border-right: solid 1px #8d8d8d;
+}
+
+.info {
   margin-top: 200px;
 }
