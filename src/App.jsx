@@ -5,6 +5,7 @@ import "./App.css";
 import AOS from "aos";
 import Btn from "./components/Btn";
 import "aos/dist/aos.css";
+import Footer from "./components/Footer";
 
 function Home() {
   useEffect(() => {
@@ -35,6 +36,7 @@ function Home() {
           </p>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

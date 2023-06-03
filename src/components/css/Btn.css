@@ -4,11 +4,14 @@
   box-shadow: 1px 1px 5px #0000008c;
   border-radius: 10px;
   margin: 10px;
+  margin-top: 20px;
+  margin-bottom: 40px;
   padding-left: 15px;
 }
 .contact h2 {
   border-bottom: 1px solid #6e6e6e8c;
   font-size: 30px;
+  color: red;
 }
 .submit {
   margin-top: 20px;
@@ -102,6 +105,12 @@
 #colorgit {
   background: #171515;
 }
+.twi {
+  color: #00acee;
+}
+#colortwi {
+  background: #00acee;
+}
 .insta {
   color: #f09433;
 }
@@ -165,6 +174,7 @@
     padding-right: 5px;
   }
   .submit {
+    box-shadow: none;
     margin-top: 10px;
     padding-left: 0em;
     padding-right: 0em;
@@ -178,6 +188,7 @@
   }
 
   .submit .icon {
+    box-shadow: 0px 1px 3px #000000ab;
     margin-left: 0em;
     position: relative;
     font-size: 0.8rem;
@@ -186,11 +197,12 @@
     font-size: 1.1rem;
   }
   .submit:hover .icon .svg {
-    transform: translateX(0);
+    transform: none;
     font-size: 1rem;
   }
 
   .submit:active .icon {
+    transform: none;
     font-size: 1rem;
   }
   .contact {

@@ -44,3 +44,27 @@ body {
   margin-top: 200px;
   margin-right: 20%;
 }
+@media (max-width: 768px) {
+  .landing .container {
+    margin-top: -65px;
+  }
+  .landing .perfiles {
+    margin-left: -10px;
+  }
+
+  .landing .perfiles .foto {
+    max-width: 90px;
+  }
+}
+@media (max-width: 480px) {
+  .landing .container {
+    margin-top: -60px;
+  }
+  .landing .perfiles {
+    margin-left: -11px;
+  }
+
+  .landing .perfiles .foto {
+    max-width: 60px;
+  }
+}
