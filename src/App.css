@@ -2,6 +2,7 @@
   margin: 0%;
 }
 body {
+  background-color: #e9e9e9;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .landing .banner {
@@ -22,9 +23,11 @@ body {
   margin-left: 6%;
 }
 .landing .perfiles .foto {
+  max-width: 100%;
+  height: auto;
   border-radius: 50%;
   box-shadow: 2px 3px 10px #686868;
-  width: 120px;
+  width: 110px;
   margin-bottom: 20px;
   transition: 0.5s;
 }
@@ -35,7 +38,6 @@ body {
 }
 
 .landing .perfiles .contact {
-  border-right: solid 1px #8d8d8d;
 }
 /* ---------- */
 .info {
