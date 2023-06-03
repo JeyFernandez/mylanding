@@ -25,12 +25,14 @@ function Btn() {
         </h2>
         {/* btn */}
         <div data-aos="fade-right" type="submit" className="submit">
-          <p className="wat">WhatsApp</p>
-          <div id="colorwat" class="icon">
-            <div className="svg">
-              <FaWhatsapp />
+          <a href="https://wa.me/50555031540?text=Hola%20Como%20estas">
+            <p className="wat">WhatsApp</p>
+            <div id="colorwat" class="icon">
+              <div className="svg">
+                <FaWhatsapp />
+              </div>
             </div>
-          </div>
+          </a>
         </div>
         <div data-aos="fade-right" type="submit" className="submit">
           <p className="tel">Telegram</p>
@@ -41,12 +43,14 @@ function Btn() {
           </div>
         </div>
         <div data-aos="fade-right" type="submit" className="submit">
-          <p className="mail">Correo</p>
-          <div id="colormail" class="icon">
-            <div className="svg">
-              <MdMail />
+          <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJqVNtqxqsZFZCPkmhthfgCBGnJSTxHCKRKBqsWXxfXfxflRFFVPWXKbMjlvkRZQBPMVTsV">
+            <p className="mail">Correo</p>
+            <div id="colormail" class="icon">
+              <div className="svg">
+                <MdMail />
+              </div>
             </div>
-          </div>
+          </a>
         </div>
         {/* btn */}
       </div>
@@ -57,12 +61,14 @@ function Btn() {
         </h2>
         {/* btn */}
         <div data-aos="fade-right" type="submit" className="submit">
-          <p className="git">GitHub</p>
-          <div id="colorgit" class="icon">
-            <div className="svg">
-              <BsGithub />
+          <a href="https://github.com/JeyFernandez">
+            <p className="git">GitHub</p>
+            <div id="colorgit" class="icon">
+              <div className="svg">
+                <BsGithub />
+              </div>
             </div>
-          </div>
+          </a>
         </div>
         <div data-aos="fade-right" type="submit" className="submit">
           <p className="face">Facebook</p>

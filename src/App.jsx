@@ -20,12 +20,18 @@ function Home() {
           <Btn />
         </div>
         <div>
-          <p className="info">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
-            Obcaecati dolore in repellat neque rem omnis quos, saepe molestias
-            nobis? Dolor officiis <br /> ducimus beatae necessitatibus illo
-            voluptatem temporibus quae labore facilis.
-          </p>
+          <div className="info">
+            <p>
+              Hi 🖐, my name is Jasson Ariel Fernandez, I am a student studying
+              Systems Engineering
+            </p>
+            <br />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure,
+              suscipit vero mollitia fugit, id iste illo quae necessitatibus eos
+              saepe optio et ea nam. Cupiditate earum unde rem aut quas.
+            </p>
+          </div>
         </div>
         <div>
           <p className="info">
