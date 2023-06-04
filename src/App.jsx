@@ -6,6 +6,8 @@ import AOS from "aos";
 import Btn from "./components/Btn";
 import "aos/dist/aos.css";
 import Footer from "./components/Footer";
+import Cards from "./components/Cards";
+import Info from "./components/Informations";
 
 function Home() {
   useEffect(() => {
@@ -19,28 +21,16 @@ function Home() {
           <img data-aos="zoom-in" className="foto" src={Perfil} />
           <Btn />
         </div>
-        <div>
+        <div className="container-btw">
           <div className="info">
-            <p>
-              Hi 🖐, my name is Jasson Ariel Fernandez, I am a student studying
-              Systems Engineering
+            <p className="p">
+              <label>JASSON ARIEL FERNÁNDEZ ESPINOZA</label>
             </p>
-            <br />
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure,
-              suscipit vero mollitia fugit, id iste illo quae necessitatibus eos
-              saepe optio et ea nam. Cupiditate earum unde rem aut quas.
-            </p>
+            <Info />
           </div>
+          <Cards />
         </div>
-        <div>
-          <p className="info">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
-            Obcaecati dolore in repellat neque rem omnis quos, saepe molestias
-            nobis? Dolor officiis <br /> ducimus beatae necessitatibus illo
-            voluptatem temporibus quae labore facilis.
-          </p>
-        </div>
+        <div className="cards"></div>
       </div>
       <Footer />
     </div>
