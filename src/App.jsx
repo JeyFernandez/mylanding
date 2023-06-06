@@ -6,7 +6,6 @@ import AOS from "aos";
 import Btn from "./components/Btn";
 import "aos/dist/aos.css";
 import Footer from "./components/Footer";
-import Cards from "./components/Cards";
 import Info from "./components/Informations";
 
 function Home() {
