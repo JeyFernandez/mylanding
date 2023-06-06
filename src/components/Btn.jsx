@@ -18,7 +18,7 @@ function Btn() {
     AOS.init();
   }, []);
   return (
-    <div>
+    <div className="flexBtn">
       <div data-aos="zoom-in-down" className="contact">
         <h2>
           <FcContacts />

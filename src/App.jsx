@@ -19,7 +19,9 @@ function Home() {
       <div className="container">
         <div className="perfiles">
           <img data-aos="zoom-in" className="foto" src={Perfil} />
-          <Btn />
+          <div className="felx">
+            <Btn />
+          </div>
         </div>
         <div className="container-btw">
           <div className="info">
@@ -28,7 +30,6 @@ function Home() {
             </p>
             <Info />
           </div>
-          <Cards />
         </div>
         <div className="cards"></div>
       </div>

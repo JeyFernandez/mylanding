@@ -77,6 +77,7 @@
   font-size: 1.4rem;
   transform: scale(0.95);
 }
+
 .wat {
   color: #00bb2d;
 }
@@ -150,6 +151,7 @@
     padding-right: 1.5em;
     font-size: 0.8rem;
   }
+
   .submit p {
     font-size: 0.9rem;
     font-weight: 300;
@@ -173,7 +175,13 @@
 
 @media (max-width: 480px) {
   .contact {
+    display: flex;
     padding-right: 5px;
+    padding: 0px;
+    margin: 5px;
+    margin-top: 0px;
+    margin-bottom: 4px;
+    padding-left: 0px;
   }
   .submit {
     box-shadow: none;
@@ -190,24 +198,29 @@
   }
 
   .submit .icon {
-    box-shadow: 0px 1px 3px #000000ab;
     margin-left: 0em;
     position: relative;
     font-size: 0.8rem;
   }
   .submit .icon .svg {
-    font-size: 1.1rem;
-  }
-  .submit:hover .icon .svg {
-    transform: none;
     font-size: 1rem;
   }
-
-  .submit:active .icon {
-    transform: none;
-    font-size: 1rem;
+  .flexBtn {
+    overflow-x: scroll;
+    white-space: nowrap;
+    width: 100%;
+    padding: 10px;
+  }
+  .flexBtn::-webkit-scrollbar {
+    display: none;
   }
   .contact {
-    padding-left: 6px;
+    align-items: center;
+    padding-left: 2px;
+  }
+  .contact h2 {
+    border-right: 1px solid #6e6e6e8c;
+    border-bottom: none;
+    font-size: 25px;
   }
 }
