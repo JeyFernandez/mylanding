@@ -20,10 +20,6 @@ const Info = () => {
           info: "As a student of Systems Engineering, I have acquired extensive knowledge in areas such as programming, databases, networks, and cybersecurity. I am constantly seeking technical challenges and enjoy solving complex problems to create innovative solutions.",
         },
         {
-          key: "3",
-          info: "As a graphic designer, my creativity and artistic skills allow me to create visually appealing and effective designs. From logos to advertising materials, I always strive to capture the essence of a project and present it in a striking way.",
-        },
-        {
           key: "4",
           info: "Furthermore, as a UI designer, I am passionate about creating intuitive and visually appealing digital experiences. I ensure that interfaces are user-friendly and visually appealing, thereby enhancing the user experience.",
         },
