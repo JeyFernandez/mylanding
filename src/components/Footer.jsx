@@ -41,7 +41,6 @@ function Footer() {
               onClick={scrollToTop}
               id="btn-scroll-top"
               style={{ display: isVisible ? "block" : "none" }}
-              href="#"
             >
               Inicio
             </p>

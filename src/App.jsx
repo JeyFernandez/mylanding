@@ -17,7 +17,7 @@ function Home() {
       <img className="banner" src={Banner} />
       <div className="container">
         <div className="perfiles">
-          <img data-aos="zoom-in" className="foto" src={Perfil} />
+          <img data-aos="zoom-in" className="foto" src={Perfil} alt="logo" />
           <div className="felx">
             <Btn />
           </div>
