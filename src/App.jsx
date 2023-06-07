@@ -14,7 +14,7 @@ function Home() {
   }, []);
   return (
     <div className="landing">
-      <img className="banner" src={Banner} />
+      <img className="banner" src={Banner} alt="banner" />
       <div className="container">
         <div className="perfiles">
           <img data-aos="zoom-in" className="foto" src={Perfil} alt="logo" />
