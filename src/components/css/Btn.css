@@ -1,7 +1,6 @@
 .contact {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0);
   padding: 20px;
-  box-shadow: 1px 1px 10px #0000008c;
   border-radius: 10px;
   margin: 10px;
   margin-top: 20px;
@@ -15,6 +14,7 @@
 }
 .submit {
   padding: 0.1em;
+  background: #171515;
   padding-left: 1.2em;
   padding-right: 3.2em;
   border-radius: 50px;
@@ -175,52 +175,6 @@
 
 @media (max-width: 480px) {
   .contact {
-    display: flex;
-    padding-right: 5px;
-    padding: 0px;
-    margin: 5px;
-    margin-top: 0px;
-    margin-bottom: 4px;
-    padding-left: 0px;
-  }
-  .submit {
-    box-shadow: none;
-    margin-top: 10px;
-    padding-left: 0em;
-    padding-right: 0em;
-    font-size: 0.8rem;
-    padding: 0em;
-    height: 2.8em;
-  }
-  .submit p {
-    margin: 2px;
-    font-size: 0rem;
-  }
-
-  .submit .icon {
-    margin-left: 0em;
-    position: relative;
-    font-size: 0.8rem;
-  }
-  .submit .icon .svg {
-    font-size: 1rem;
-  }
-  .flexBtn {
-    overflow-x: scroll;
-    white-space: nowrap;
-    width: 100%;
-    padding: 10px;
-  }
-  .flexBtn::-webkit-scrollbar {
     display: none;
-  }
-  .contact {
-    align-items: center;
-    padding-left: 2px;
-  }
-  .contact h2 {
-    border-right: 1px solid #6e6e6e8c;
-    border-bottom: none;
-    font-size: 25px;
   }
 }

@@ -2,17 +2,16 @@
   margin: 0%;
 }
 body {
-  background: #e9e9e9;
+  background: #161616;
+  background-image: url("./image/fondo.png");
+  background-repeat: no-repeat;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .landing .banner {
   width: 100%;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-  box-shadow: 0px 1px 10px #686868;
 }
 .landing .container {
-  margin-top: -80px;
+  margin-top: 0px;
   display: flex;
   justify-content: space-between;
 }
@@ -28,7 +27,7 @@ body {
   border-radius: 50%;
   box-shadow: 2px 3px 10px #686868;
   width: 110px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   transition: 0.5s;
 }
 .landing .perfiles img:hover {
@@ -88,10 +87,10 @@ body {
   .landing .container {
     display: flex;
     flex-direction: column;
-    margin-top: -60px;
+    margin-top: 0px;
   }
   .landing .perfiles {
-    margin-left: -11px;
+    margin-top: 0px;
   }
   .flex {
     display: flex;
@@ -99,7 +98,7 @@ body {
   }
 
   .landing .perfiles .foto {
-    max-width: 60px;
+    max-width: 90px;
   }
   .flexBtn {
     display: flex;

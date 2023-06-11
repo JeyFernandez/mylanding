@@ -96,45 +96,6 @@ function Btn() {
         </div>
         {/* btn */}
       </div>
-      <div data-aos="zoom-in-down" className="contact">
-        <h2>
-          <MdFavorite />
-        </h2>
-        {/* btn */}
-        <div data-aos="fade-right" type="submit" className="submit">
-          <p className="git">GitHub</p>
-          <div id="colorgit" class="icon">
-            <div className="svg">
-              <BsGithub />
-            </div>
-          </div>
-        </div>
-        <div data-aos="fade-right" type="submit" className="submit">
-          <p className="face">Facebook</p>
-          <div id="colorface" class="icon">
-            <div className="svg">
-              <FaFacebook />
-            </div>
-          </div>
-        </div>
-        <div data-aos="fade-right" type="submit" className="submit">
-          <p className="insta">Instagram</p>
-          <div id="colorinsta" class="icon">
-            <div className="svg">
-              <FaInstagram />
-            </div>
-          </div>
-        </div>
-        <div data-aos="fade-right" type="submit" className="submit">
-          <p className="twi">Twitter</p>
-          <div id="colortwi" class="icon">
-            <div className="svg">
-              <FaTwitter />
-            </div>
-          </div>
-        </div>
-        {/* btn */}
-      </div>
     </div>
   );
 }
