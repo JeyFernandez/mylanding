@@ -20,9 +20,6 @@ function Btn() {
   return (
     <div className="flexBtn">
       <div data-aos="zoom-in-down" className="contact">
-        <h2>
-          <FcContacts />
-        </h2>
         {/* btn */}
         <div data-aos="fade-right" type="submit" className="submit">
           <a href="https://wa.me/50555031540?text=Hola%20Como%20estas">
@@ -56,9 +53,6 @@ function Btn() {
       </div>
 
       <div data-aos="zoom-in-down" className="contact">
-        <h2>
-          <FcApproval />
-        </h2>
         {/* btn */}
         <div data-aos="fade-right" type="submit" className="submit">
           <a href="https://github.com/JeyFernandez">

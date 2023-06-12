@@ -1,10 +1,11 @@
 footer {
-  background-color: #f2f2f2;
+  background-color: rgb(5, 6, 19);
   padding: 20px;
   text-align: center;
+  color: rgb(226, 226, 226);
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
-  box-shadow: 0px -2px 5px #9c9c9c75;
+  box-shadow: 0px -2px 5px #00000075;
 }
 
 .footer-content {
@@ -37,9 +38,9 @@ footer {
 
 .footer-content ul li a {
   text-decoration: none;
-  color: #333;
+  color: #949494;
 }
 
 .footer-content ul li a:hover {
-  color: #555;
+  color: #ffffff;
 }
