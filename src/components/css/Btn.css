@@ -7,14 +7,9 @@
   margin-bottom: 40px;
   padding-left: 15px;
 }
-.contact h2 {
-  border-bottom: 1px solid #6e6e6e8c;
-  font-size: 30px;
-  color: red;
-}
 .submit {
   padding: 0.1em;
-  background: #171515;
+  background: rgb(5, 6, 19);
   padding-left: 1.2em;
   padding-right: 3.2em;
   border-radius: 50px;
@@ -36,14 +31,16 @@
 }
 .submit p {
   margin: 5px;
+  color: wheat;
   font-size: 1.2rem;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: bold;
 }
 
 .submit .icon {
+  background: rgb(255, 255, 255);
   margin-left: 1em;
-  color: white;
+  color: rgb(5, 6, 19);
   font-size: 1.2rem;
   position: absolute;
   display: flex;
@@ -54,7 +51,7 @@
   border-radius: 50px;
   right: 0.3em;
   transition: all 0.3s;
-  box-shadow: -1px 1px 4px #5f5f5f;
+  box-shadow: -1px 1px 4px #000000;
 }
 
 .submit:hover .icon {
@@ -78,73 +75,16 @@
   transform: scale(0.95);
 }
 
-.wat {
-  color: #00bb2d;
-}
-#colorwat {
-  background: #00bb2d;
-}
-.tel {
-  color: #0088cc;
-}
-#colortel {
-  background: #0088cc;
-}
-.face {
-  color: #3b5998;
-}
-#colorface {
-  background: #3b5998;
-}
-.mail {
-  color: #db4437;
-}
-#colormail {
-  background: #db4437;
-}
-.git {
-  color: #171515;
-}
-#colorgit {
-  background: #171515;
-}
-.twi {
-  color: #00acee;
-}
-#colortwi {
-  background: #00acee;
-}
-.insta {
-  color: #f09433;
-}
-#colorinsta {
-  background: #f09433;
-  background: -moz-linear-gradient(
-    45deg,
-    #f09433 0%,
-    #e6683c 25%,
-    #dc2743 50%,
-    #cc2366 75%,
-    #bc1888 100%
-  );
-  background: -webkit-linear-gradient(
-    45deg,
-    #f09433 0%,
-    #dc2743 50%,
-    #cc2366 75%,
-    #bc1888 100%
-  );
-  background: linear-gradient(
-    45deg,
-    #f09433 0%,
-    #e6683c 25%,
-    #dc2743 50%,
-    #cc2366 75%,
-    #bc1888 100%
-  );
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
-}
 @media (max-width: 768px) {
+  .contact {
+    box-shadow: 0px 0px 5px #000000;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    padding-left: 10px;
+  }
   .submit {
     margin-top: 20px;
     padding-left: 0.1em;

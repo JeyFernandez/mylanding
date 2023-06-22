@@ -2,13 +2,17 @@
   margin: 0%;
 }
 body {
-  background: #161616;
   background-image: url("./image/fondo.png");
+  background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-.landing .banner {
-  width: 100%;
+.fondo {
+  border-radius: 10px;
+  margin-top: 100px;
+  margin-bottom: 10px;
 }
 .landing .container {
   margin-top: 0px;
@@ -25,7 +29,7 @@ body {
   max-width: 100%;
   height: auto;
   border-radius: 50%;
-  box-shadow: 2px 3px 10px #686868;
+  box-shadow: 2px 3px 10px #000000ab;
   width: 110px;
   margin-bottom: 0px;
   transition: 0.5s;
@@ -64,6 +68,8 @@ body {
 @media (max-width: 768px) {
   .landing .container {
     margin-top: -65px;
+    display: flex;
+    flex-direction: column;
   }
   .landing .perfiles {
     margin-left: -10px;
@@ -79,6 +85,7 @@ body {
     margin: 1%;
   }
   .info label {
+    text-align: center;
     padding: 10px;
     border-radius: 10px;
     background: white;

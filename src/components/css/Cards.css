@@ -1,24 +1,53 @@
-.cards {
-  margin-right: 2%;
-  margin-left: 4%;
-}
-.cards .container {
-  display: flex;
-  flex-direction: column;
-  width: 190px;
-  height: 254px;
+.card {
+  margin: 30px;
+  width: 300px;
   background-color: #fff;
-  box-shadow: 12px 17px 30px rgba(0, 0, 0, 0.22);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
-  cursor: pointer;
-  transition: all 0.5s;
-  align-items: center;
-  margin: 10px;
+  overflow: hidden;
 }
 
-.cards .container:hover {
-  transform: scale(1.05);
+.header {
+  background-color: #0a182c;
+  color: #fff;
+  margin: 5px;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 18px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.397);
 }
-.cards .container:active {
-  transform: scale(0.95) rotateZ(1.7deg);
+
+.body {
+  padding: 20px;
+}
+
+.skill {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.skill-name {
+  width: 120px;
+  font-size: 16px;
+}
+
+.skill-level {
+  width: 160px;
+  height: 10px;
+  background-color: #eee;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-left: 20px;
+}
+
+.skill-percent {
+  background-color: #070e20;
+  height: 100%;
+}
+
+.skill-percent-number {
+  margin-left: 20px;
+  font-size: 16px;
 }

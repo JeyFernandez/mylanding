@@ -42,7 +42,7 @@ const Info = () => {
   return (
     <div>
       {SECTIONS.map((section) => (
-        <div>
+        <div className="sections">
           {section.data.map((item) => (
             <div key={item.key}>
               <p data-aos="zoom-in-right" className="parrafo">
