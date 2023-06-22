@@ -10,9 +10,8 @@ import {
   FaInstagram,
   FaTwitter,
 } from "react-icons/fa";
-import { MdMail, MdFavorite } from "react-icons/md";
+import { MdMail } from "react-icons/md";
 import { BsGithub } from "react-icons/bs";
-import { FcContacts, FcApproval } from "react-icons/fc";
 function Btn() {
   useEffect(() => {
     AOS.init();
