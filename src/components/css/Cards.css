@@ -1,6 +1,8 @@
 .card {
   margin: 30px;
   width: 300px;
+  display: flex;
+  flex-direction: column;
   background-color: #fff;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
@@ -50,4 +52,17 @@
 .skill-percent-number {
   margin-left: 20px;
   font-size: 16px;
+}
+@media screen and (max-width: 768px) {
+  .card {
+    flex-direction: row;
+    margin: 30px auto;
+    width: auto;
+  }
+}
+@media screen and (max-width: 480px) {
+  .card {
+    flex-direction: column;
+    margin: 30px auto;
+  }
 }
