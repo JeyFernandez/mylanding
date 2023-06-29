@@ -12,6 +12,7 @@ function Home() {
   useEffect(() => {
     AOS.init();
   }, []);
+
   return (
     <div className="landing">
       <div className="banner"></div>

@@ -3,33 +3,37 @@ import "./css/Cards.css";
 
 function Cards() {
   return (
-    <div className="cards">
-      <div id="btn-abrir-popup" className="container">
-        <h2>Web Front-end</h2>
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <ul>
-            <li>Boostrap</li>
-            <li>Tailwins</li>
-            <li>Bulma</li>
-          </ul>
-        </ul>
-      </div>
-      <div id="btn-abrir-popup" className="container">
-        <h2>Developer</h2>
-        <ul>
-          <li>React</li>
-          <li>View</li>
-          <li>Angular</li>
-        </ul>
-      </div>
-      <div className="container">
-        <h2>Backend</h2>
-        <ul>
-          <li>PHP</li>
-          <li>PYTHON</li>
-        </ul>
+    <div className="card">
+      <div className="header">Frontend</div>
+      <div className="body">
+        <div className="skill">
+          <div className="skill-name">HTML</div>
+          <div className="skill-level">
+            <div className="skill-percent" style={{ width: "90%" }} />
+          </div>
+          <div className="skill-percent-number">90%</div>
+        </div>
+        <div className="skill">
+          <div className="skill-name">CSS</div>
+          <div className="skill-level">
+            <div className="skill-percent" style={{ width: "80%" }} />
+          </div>
+          <div className="skill-percent-number">80%</div>
+        </div>
+        <div className="skill">
+          <div className="skill-name">JavaScript</div>
+          <div className="skill-level">
+            <div className="skill-percent" style={{ width: "75%" }} />
+          </div>
+          <div className="skill-percent-number">75%</div>
+        </div>
+        <div className="skill">
+          <div className="skill-name">React</div>
+          <div className="skill-level">
+            <div className="skill-percent" style={{ width: "50%" }} />
+          </div>
+          <div className="skill-percent-number">50%</div>
+        </div>
       </div>
     </div>
   );

@@ -68,6 +68,8 @@ body {
 @media (max-width: 768px) {
   .landing .container {
     margin-top: -65px;
+    display: flex;
+    flex-direction: column;
   }
   .landing .perfiles {
     margin-left: -10px;
