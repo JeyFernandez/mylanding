@@ -3,19 +3,28 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import "./css/Btn.css";
 
-import {
-  FaWhatsapp,
-  FaFacebook,
-  FaTelegram,
-  FaInstagram,
-  FaTwitter,
-} from "react-icons/fa";
-import { MdMail } from "react-icons/md";
-import { BsGithub } from "react-icons/bs";
+import { FaWhatsapp, FaInstagram, FaTwitter, FaFacebook } from "react-icons/fa";
+
 function Btn() {
   useEffect(() => {
     AOS.init();
   }, []);
-  return <div className="flexBtn"></div>;
+
+  return (
+    <div>
+      <div className="cardsbtn">
+        <div>
+          <div data-aos="fade-right">
+            <a href="/#" target="_blank" rel="noreferrer">
+              <p>
+                <FaWhatsapp />
+              </p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 }
+
 export default Btn;
