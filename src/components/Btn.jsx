@@ -3,7 +3,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import "./css/Btn.css";
 
-import { FaWhatsapp, FaInstagram, FaTwitter, FaFacebook } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa";
 
 function Btn() {
   useEffect(() => {
