@@ -45,7 +45,7 @@ const Info = () => {
         <div className="sections">
           {section.data.map((item) => (
             <div key={item.key}>
-              <p data-aos="zoom-in-right" className="parrafo">
+              <p data-aos="zoom-in-down" className="parrafo">
                 {item.info}
               </p>
             </div>

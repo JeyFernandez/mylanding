@@ -1,10 +1,17 @@
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import React from "react";
 import "./css/Cards.css";
 
 function Cards() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
     <>
-      <div className="card">
+      <div className="card" data-aos="fade-left">
         <div className="header">Developers</div>
         <div className="body">
           <div className="skill">
@@ -37,7 +44,7 @@ function Cards() {
           </div>
         </div>
       </div>
-      <div className="card">
+      <div className="card" data-aos="fade-left">
         <div className="header">Other</div>
         <div className="body">
           <div className="skill">
