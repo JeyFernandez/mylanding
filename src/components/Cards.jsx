@@ -11,7 +11,7 @@ function Cards() {
 
   return (
     <>
-      <div className="card" data-aos="fade-left">
+      <div className="card" data-aos="flip-up">
         <div className="header">Developers</div>
         <div className="body">
           <div className="skill">
@@ -44,7 +44,7 @@ function Cards() {
           </div>
         </div>
       </div>
-      <div className="card" data-aos="fade-left">
+      <div className="card" data-aos="flip-up">
         <div className="header">Other</div>
         <div className="body">
           <div className="skill">
